@@ -23,9 +23,9 @@ db_instance_class = "db.t4g.micro"
 
 # GitHub Actions OIDC deploy role (used by .github/workflows/pipeline.yml
 # via the AWS_ROLE_ARN secret). Set github_org = "" to skip creating it.
-github_org  = "Devotha123"
-github_repo = "Petclinicapp"
+github_org  = "your-github-org"
+github_repo = "your-repo"
 
 # Set to false if the AWS account already has an OIDC provider for
 # token.actions.githubusercontent.com (only one is allowed per account).
-create_github_oidc_provider = false
+create_github_oidc_provider = true
